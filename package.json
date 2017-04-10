@@ -1,0 +1,23 @@
+{
+  "name": "winston-istrace",
+  "version": "0.1.0",
+  "description": "Winston transport for IsTrace",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "winston",
+    "IsTrace"
+  ],
+  "author": {
+    "name": "Toinane",
+    "url": "https://toinane.crea-th.at"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.81.x",
+    "winston": "^2.x.x"
+  }
+}
