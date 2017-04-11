@@ -17,7 +17,7 @@ by default, it send only error, warn and info logs.
 
 ```json
 {
-  "host": "localhost:6031/log",
+  "host": "localhost",
   "service": "my service name",
   "level": "debug",
   "message": "my generic message",

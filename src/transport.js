@@ -8,7 +8,6 @@ function IsTraceLogger (options) {
   this.name             = 'isTraceLogger';
   this.payload          = {};
   this.options          = options               || {};
-  this.level            = this.options.level    || 'info';
   this.host             = this.options.host     || 'localhost';
   this.payload.service  = this.options.service  || null;
   this.payload.message  = this.options.message  || null;
@@ -17,6 +16,8 @@ function IsTraceLogger (options) {
   this.payload.details  = this.options.details  || null;
 
   Transport.call(this, options);
+
+  this.level = this.options.level ||'info';
 }
 
 util.inherits(IsTraceLogger, Transport);
