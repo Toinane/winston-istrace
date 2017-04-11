@@ -1,7 +1,7 @@
 # winston-istrace
 
-[![npm version](https://badge.fury.io/js/winston-istrace.svg)](https://badge.fury.io/js/winston-istrace)
-[![npm dependencies](https://david-dm.org/toinane/winston-istrace.svg)
+[npm version](https://badge.fury.io/js/winston-istrace.svg)](https://badge.fury.io/js/winston-istrace)
+[npm dependencies](https://david-dm.org/toinane/winston-istrace.svg)
 
 ```
 npm i -S winston-istrace
