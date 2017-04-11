@@ -15,6 +15,11 @@
     "name": "Toinane",
     "url": "https://toinane.crea-th.at"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Toinane/winston-istrace.git"
+  },
+  "homepage": "https://github.com/Toinane/winston-istrace",
   "license": "MIT",
   "dependencies": {
     "request": "^2.81.x",
