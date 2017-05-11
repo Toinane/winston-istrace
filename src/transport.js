@@ -40,8 +40,10 @@ IsTraceLogger.prototype.log = function (level, msg, meta, callback) {
   }
 
   for (var param of params) {
-    if(meta[param]){
-      options.json[param] = meta[param];
+    if (typeof meta === Object){
+      if (meta[param]){
+        options.json[param] = meta[param];
+      }
     }
   }
 
