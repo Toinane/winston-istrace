@@ -17,7 +17,7 @@ by default, it send only error, warn and info logs.
 
 ```json
 {
-  "host": "localhost",
+  "host": "http://requestb.in/1bx09nv1",
   "service": "my service name",
   "level": "debug",
   "message": "my generic message",
@@ -55,9 +55,9 @@ logger.warn("Stream in batch", {
   code: 400
 });
 
-logger.error("Error on main stream", {
+logger.error("Error to get main stream", {
   code: 300,
-  action: "get stream",
-  scope: "stream"
+  action: "getMainStream",
+  scope: "StreamRepository"
 });
 ```
