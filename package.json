@@ -1,6 +1,6 @@
 {
   "name": "winston-istrace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Winston transport for IsTrace",
   "main": "index.js",
   "scripts": {
@@ -22,10 +22,10 @@
   "homepage": "https://github.com/Toinane/winston-istrace",
   "license": "MIT",
   "dependencies": {
-    "request": "^2.88.x",
-    "winston": "^3.2.x"
+    "request": "^2.88.0",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
-    "mocha": "^6.2.0"
+    "mocha": "^6.2.2"
   }
 }
